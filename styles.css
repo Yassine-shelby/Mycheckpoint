@@ -1,0 +1,61 @@
+h1{
+    color: whitesmoke;
+    background-color: tan;
+}
+.index-p {
+    font-family:"ROBOTO";
+    color: darkblue;
+
+}
+.index-intro p {
+    color: darkred;
+}
+.index-intro2 p {
+    font-size: 120;
+    color: yellowgreen;
+}
+.index-prg p {
+    font-family: Georgia;
+    color: mediumblue;
+}
+body{
+    font-family: 'ROBOTO';
+    font-size: larger;
+    font-weight: 700//bold;
+}
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: whitesmoke;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-top: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px
+}
+nav ul li a{
+    color: whitesmoke;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+
+}
+form{
+    color: darkblue;
+}
